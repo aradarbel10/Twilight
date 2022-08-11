@@ -10,4 +10,7 @@ Dependent Records | `interface` | `struct` | members |  | `implements` | only lo
 Type Classes | (type) `class` | `instance` | functions | laws | implied from `instance` | global scope |  | always open |
 **Twilight** | `M = [x : T]` | `E = [x = t]` | `x` | `[x : A, y : B(x)]` | `M : E` | `use M; c` | row polymorphism | qualification primitives
 
-For a thorough overview of Twilight and reasons behind its designed see `/docs/motivation.md`.
+- `/docs/motivation.md` - A thorough overview of Twilight and reasons behind its design.
+- `/docs/examples.md` - Actual snippets of Twilight code.
+- `/docs/bibliography.md` - Collected literature about the theory behind Twilight.
+- `/docs/semantics.md` - Formal type system & operational semantics.
